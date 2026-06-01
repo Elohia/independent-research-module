@@ -1,0 +1,27 @@
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Runtime data
+backend/data/
+backend/*.db
+backend/*.sqlite*
+*.log
+*.tmp
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# Local env
+.env
+.env.*
+*.local
